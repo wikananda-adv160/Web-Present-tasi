@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Praktik Kerja Lapangan (PKL)</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const sections = document.querySelectorAll("section");
+            const navLinks = document.querySelectorAll(".navbar-content a");
+    
+            window.addEventListener("scroll", () => {
+                let current = "";
+                sections.forEach((section) => {
+                    const sectionTop = section.offsetTop - 100;
+                    if (window.scrollY >= sectionTop) {
+                        current = section.getAttribute("id");
+                    }
+                });
+    
+                navLinks.forEach((link) => {
+                    link.classList.remove("active");
+                    if (link.getAttribute("href").includes(current)) {
+                        link.classList.add("active");
+                    }
+                });
+            });
+        });
+    </script>
+    
+    
+<body>
+    <nav>
+        <div class="navbar-content">    
+            <a href="home">home</a>
+            <a href="sejarah">sejarah</a>
+            <a href="pekerjaan">pekerjaan</a>
+            <a href="penutup">penutup</a>
+        </div>
+    </nav>  
+
+    <section id="home"  class="saction">
+        <section id="home" class="saction" data-aos="fade-up">
+            <h1>PRESENTASI PRAKTEK KERJA LAPANGAN</h1>
+       
+        
+        <h1>DI</h1>
+        <h1>PT TELKOM SANUR</h1>
+        <img src="gambar/Logo-PNG-Tanpa-Tulisan-300x300-1.png" alt="logo">
+        <h2>NAMA : Gusti Ngurah Wikananda</h2>
+        <h2>NIS  : 6706</h2>
+        <h2>KLS  : XI RPL 3</h2>
+    </section>
+    </section>
+
+    <br>
+    <br>
+    <section id="sejarah"  class="saction">
+        <section id="sejarah" class="saction" data-aos="fade-up">
+        <h2>SEJARAH PT TELKOM</h2>
+        <img src="gambar/logo-telkom-indonesia-transparent-background.png" alt="">
+        <p>PT Telkom Indonesia (Persero) Tbk (Telkom) adalah badan usaha milik negara (BUMN) yang bergerak di bidang layanan teknologi informasi dan komunikasi serta telekomunikasi digital di Indonesia.
+
+            Pemilik mayoritas saham Telkom adalah pemerintah Republik Indonesia dengan kepemilikan sebesar 52,09 %. Sementara sisa kepemilikan saham sebesar 47,91 % dipegang oleh publik. Telkom memiliki 12 anak perusahaan atau subsidiary yang bergerak di berbagai sektor dan memberikan dampak positif baik untuk investor maupun rakyat Indonesia.
+            
+            Pendirian PN Telekomunikasi, sesuai PP No. 30 tanggal 6 Juli 1965, pada dasarnya ditujukan untuk membangun ekonomi nasional sesuai dengan ekonomi terpimpin dengan mengutamakan kebutuhan rakyat dan ketenteraman rakyat serta ketenangan kerja dalam perusahaan, menuju masyarakat yang adil dan makmur materiil dan spiritual. Semangat itulah yang senantiasa diemban TelkomGroup, dari produk fixed line hingga saat ini bertransformasi menjadi digital telecommunication company.</p>
+        </section>
+    </section>
+
+    <br>
+    <br>
+    <section id="pekerjaan" class="pekerjaan">
+        <section id="pekerjaan" class="saction" data-aos="fade-up">
+        <h2>- Pekerjaan yang saya kerjakan di PT Telkom</h2>
+        <h3>- Stock Opname(SO)</h3>
+        <h3>- Quality Countrol(QC)</h3>
+        <h3>- Menyiap kan material dan NTE untuk teknisi menggunakan SCMT</h3>
+    <br>
+    <br>
+        <h2>Stock Opname (SO)</h2>
+        <p>Stock opname adalah dapat diartikan sebagai aktivitas menghitung stok barang di gudang sebelum dipasarkan atau dijual. Aktivitas ini harus dilakukan dengan teliti dan juga cermat. Agar tidak terjadi kesalahan pencatatan dan juga penghitungan akibat adanya barang yang terlewat</p>
+        <p>stock opname di PT Telkom ada 4 yaitu SO CCTV, SO material, SO NTE GUDANG EBIS, dan SO NTE Consumer, setalah melakukan SO selanjutnya melakukan QC 32 Serial Number NTE </p>
+        <h2>cara melakukan Stock Opname (SO)</h2>
+        <P>1. Barcode seluruh NTE yang ada di gudang </P>
+        <img src="gambar/5bfb4c23-6e5c-418b-85fd-da6af36ec8e6.jpg" alt="">
+        <img src="gambar/bcb02da8-c50d-4a88-9dc5-7bad9fd0910d.jpg" alt="">
+        <p>2. kemudian kirim ke grup pemeriksaan</p>
+        <img src="gambar/96e8be7c-8f59-48e3-9869-6e3de8643b63.jpg" alt="">
+        <p>3. setelah di periksa dan tidak ada negative, lanjut transaksi dengan teknisi</p>
+        <img src="gambar/1c8b112d-a3fb-4194-ac33-cff137373b45.jpg" alt="">
+         
+    </section>
+
+    <br>
+    <br>
+    <h2>Quality Cuntrol (QC)</h2>
+    <p>Quality control (QC) adalah proses pengecekan suatu produk yang dilakukan oleh perusahaan untuk memastikan dan menjaga kualitas produknya. Di dalam proses quality control, setiap produk yang tidak sesuai dengan standarnya tidak akan lolos untuk dijual ke pasaran</p>
+    <h2>Cara melakukan Quality Countrol</h2>
+    <p>1. Ambil perangkat NTE sebanyak 32 kotak</p>
+    <img src="gambar/NTE.jpg" alt="">
+    <P>2. Keluarkan NTE dari kotak, kemudian foto bagian SN NTE, cek perlengkapan NTE seperti RJ45, patchcord, remote, dan adaptor</P>
+    <img src="gambar/ONT.jpg" alt="">
+    <p>3. kemudian masukkan ke GDOG QC,</p>
+    <img src="gambar/qc.jpg" alt="">
+
+    <br>
+    <br>
+    <h2>menyeiap kan material dan NTE menggunakan Suplay Caint Managemnt (SCMT)</h2>
+    <p>ini adalah tugas utama saya di PT Telkom yaitu menyiapkan material atau NTE untuk teknisi yang mereka reques dari telegram, sebelum material atau NTE di ambil teknisi, material dan NTE tersebut harus melewati proses Suplay Caint Menegement (SCMT), setelah melakukan prroses SCMT baru bisa di bawa teknisi</p>
+    <h2>cara menggunakan Suplay Caint Management (SCMT)</h2>
+    <p>1. minta tiket reques NTE dari teknisi</p>
+    <img src="gambar/d41f42bd-f753-45af-be9c-7cf49e84f6f6.jpg" alt="">
+    <p>2. masukkan Nama atau NIK teknisi</p>
+    <img src="gambar/tecnision.jpg" alt="">
+    <p>3. masukkan id tiket INC dan 1724 untuk remerk itu opsional</p>
+    <img src="gambar/inc.jpg" alt="">
+    <p>4. masukkan serial number (SN) NTE</p>
+    <img src="gambar/hasil assign.jpg" alt="">
+    <p>5. submit dan kirim bukti submit ke teknisi</p>
+    <img src="gambar/KIRIM.jpg" alt="">
+
+    <section id="penutup" class="penutup">
+        <h2>terimakasih waktunya</h2>
+    </section>
+     </section>
+</body>
+<script>
+    AOS.init();
+</script>
+
+</html>
